@@ -1,0 +1,47 @@
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        position: relative;
+      }
+      img {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        background-color: black;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 5px;
+      }
+      .blackness {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        height: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+      .content h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
