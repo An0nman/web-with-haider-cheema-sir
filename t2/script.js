@@ -15,9 +15,7 @@ function createContent(one, two, three, four, file) {
           <div style="display: flex; gap: 20px; margin-bottom: 20px">
             <a href="https://www.google.com" target="_blank">Google</a>
             <a href="https://www.youtube.com" target="_blank">YouTube</a>
-            <a href="https://unsplash.com/s/photos/car" target="_blank"
-              >Unsplash Car Photos</a
-            >
+            <a href="https://unsplash.com/s/photos/car" target="_blank">Unsplash Car Photos</a>
           </div>
     
           <div style="display: flex; flex-direction: column; font-size: 22px">

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All HTML Elements Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>HTML Elements Showcase</h1>
+        <nav>
+            <a href="#text">Text</a>
+            <a href="#lists">Lists</a>
+            <a href="#media">Media</a>
+            <a href="#forms">Forms</a>
+            <a href="#table">Table</a>
+            <a href="#semantics">Semantics</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="text">
+            <h2>Text Elements</h2>
+            <p>This is a <strong>paragraph</strong> with <em>emphasis</em> and <mark>highlighted</mark> text.</p>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <blockquote>This is a blockquote.</blockquote>
+            <pre>
+function hello() {
+    alert('Hello, world!');
+}
+            </pre>
+            <code>&lt;div&gt;Sample code&lt;/div&gt;</code>
+            <br>
+            <abbr title="HyperText Markup Language">HTML</abbr>
+            <address>123 Web St, Internet City</address>
+            <cite>HTML5 Specification</cite>
+            <dfn>Definition</dfn>
+            <samp>Sample output</samp>
+            <kbd>Ctrl + S</kbd>
+            <sub>Subscript</sub>
+            <sup>Superscript</sup>
+            <del>Deleted text</del>
+            <ins>Inserted text</ins>
+        </section>
+
+        <section id="lists">
+            <h2>Lists</h2>
+            <ul>
+                <li>Unordered list item</li>
+                <li>Another item</li>
+            </ul>
+            <ol>
+                <li>Ordered list item</li>
+                <li>Second item</li>
+            </ol>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language</dd>
+            </dl>
+        </section>
+
+        <section id="media">
+            <h2>Media Elements</h2>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+            <figure>
+                <img src="https://via.placeholder.com/100" alt="Figure Image">
+                <figcaption>Figure caption</figcaption>
+            </figure>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <video width="200" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="forms">
+            <h2>Form Elements</h2>
+            <form>
+                <label for="text">Text:</label>
+                <input type="text" id="text" name="text"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br>
+                <label for="number">Number:</label>
+                <input type="number" id="number" name="number"><br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date"><br>
+                <label for="color">Color:</label>
+                <input type="color" id="color" name="color"><br>
+                <label>
+                    <input type="checkbox" name="subscribe"> Subscribe
+                </label><br>
+                <label>
+                    <input type="radio" name="gender" value="male"> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female"> Female
+                </label><br>
+                <label for="select">Select:</label>
+                <select id="select" name="select">
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                </select><br>
+                <textarea name="message" rows="2" cols="20">Textarea</textarea><br>
+                <button type="submit">Submit</button>
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+
+        <section id="table">
+            <h2>Table Elements</h2>
+            <table>
+                <caption>Sample Table</caption>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1, Cell 1</td>
+                        <td>Row 1, Cell 2</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2, Cell 1</td>
+                        <td>Row 2, Cell 2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Footer</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="semantics">
+            <h2>Semantic Elements</h2>
+            <article>
+                <h3>Article Title</h3>
+                <p>This is an article section.</p>
+            </article>
+            <aside>
+                <p>This is an aside section.</p>
+            </aside>
+            <details>
+                <summary>More info</summary>
+                <p>Details content goes here.</p>
+            </details>
+            <dialog open>This is a dialog box.</dialog>
+            <footer>
+                <p>Footer content here.</p>
+            </footer>
+            <section>
+                <h4>Nested Section</h4>
+                <p>Section inside section.</p>
+            </section>
+            <time datetime="2024-06-01">June 1, 2024</time>
+            <progress value="70" max="100">70%</progress>
+            <meter value="0.6">60%</meter>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+            </nav>
+        </section>
+    </main>
+</body>
+</html>
+<!-- task was to showcase all html tags -->
