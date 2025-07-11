@@ -1,0 +1,15 @@
+body {
+    background-color: pink;
+}
+#h_blue{
+    color:blue;
+}
+.p_green{
+    color: green;
+}
+#sec-1>.para{
+    color: orangered;
+}
+p+h1{
+    color: red;
+}
