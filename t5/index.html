@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
   </head>
   <body>
     <header>
@@ -16,8 +21,8 @@
       <div class="navigation">
         <nav>
           <ul>
-            <li>
-              <a href="">About Us</a>
+            <li class="dropdown">
+              <a href="">About Us <i class="fas fa-caret-down"></i></a>
               <ul>
                 <li><a href="">Our Approach</a></li>
                 <li><a href="">Media</a></li>
@@ -28,8 +33,8 @@
             <li><a href="">Impact Stories</a></li>
             <li><a href="">Upcoming Events</a></li>
             <li><a href="">Global Healing</a></li>
-            <li>
-              <a href="">How to help</a>
+            <li class="dropdown">
+              <a href="">How to help <i class="fas fa-caret-down"></i></a>
               <ul>
                 <li><a href="">Give Your Zakat</a></li>
                 <li><a href="">Give Your Sadka</a></li>
@@ -43,13 +48,35 @@
           </ul>
         </nav>
         <div class="nav-btns">
-          <button><a href="">Login</a></button>
-          <button><a href="">Donate</a></button>
+          <a href="">Login</a>
+          <a href="">Donate</a>
         </div>
       </div>
     </header>
     <main>
-      <section id="hero"></section>
+      <section id="hero-sec">
+        <div class="img">
+          <img
+            src="https://www.healpalestine.org/wp-content/uploads/2025/07/Kids-Healing-Kids-1.png"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <p>HEAL Palestine Updates</p>
+          <h2>Kids Healing Kids</h2>
+          <p>
+            This summer, we’re planting seeds of kindness, empathy, and
+            leadership with Kids HEALing Kids—a fun and meaningful way for
+            children to take action and help kids in Palestine.
+          </p>
+          <p>
+            Whether it’s a <strong>lemonade stand, bake sale, car wash</strong>,
+            or something totally wild from your imagination, you and your family
+            can turn your creativity into real change.
+          </p>
+          <a href="">Learn More</a>
+        </div>
+      </section>
       <section id="sec1">
         <h1>Healing Palestine, One Life at a Time</h1>
         <div class="content">
