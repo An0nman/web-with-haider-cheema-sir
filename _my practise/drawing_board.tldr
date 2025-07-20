@@ -74,6 +74,11 @@
 			"meta": {},
 			"id": "pointer:pointer",
 			"typeName": "pointer"
+			"typeName": "pointer",
+			"x": 1198.89909650617,
+			"y": 1094.8676648325293,
+			"lastActivityTimestamp": 1752513655642,
+			"meta": {}
 		},
 		{
 			"x": 575.167121633425,
@@ -545,9 +550,15 @@
 			"typeName": "shape"
 		},
 		{
+<<<<<<< HEAD
 			"x": 691.9988930812112,
 			"y": 62.723302761318834,
 			"z": 0.5082858359097667,
+=======
+			"x": 760.8061812716621,
+			"y": 91.0794405385574,
+			"z": 0.41485829997961976,
+>>>>>>> 39f002dc2a1b4e6118f9e7231f293384e6242ee2
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -1851,8 +1862,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1280.833251953125,
-				"h": 753.3333129882812
+				"w": 1103,
+				"h": 614
 			},
 			"insets": [
 				false,
@@ -1867,7 +1878,7 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 1.2000000476837158,
+			"devicePixelRatio": 1,
 			"isCoarsePointer": false,
 			"isHoveringCanvas": null,
 			"openMenus": [],
@@ -1925,7 +1936,7 @@
 			"props": {
 				"color": "black",
 				"size": "m",
-				"w": 529.6067504882812,
+				"w": 540.53125,
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
@@ -1954,6 +1965,18 @@
 								{
 									"type": "text",
 									"text": "\t\tpoori line ki width laita hai"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\thamasha new line pay atay hain"
 								}
 							]
 						},
@@ -2067,7 +2090,7 @@
 			"type": "frame",
 			"props": {
 				"w": 558.1640625,
-				"h": 156.9921875,
+				"h": 187.35363685820636,
 				"name": "Definitions",
 				"color": "black"
 			},
