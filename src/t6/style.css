@@ -1,0 +1,28 @@
+@layer components {
+    .card {
+        grid-column: span 3;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .card2 {
+        grid-column: span 3;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .card2:hover {
+        color: #CE0000;
+    }
+
+    .card3 {
+        display: flex;
+        padding: 1.25rem 0;
+    }
+
+    .card3:hover {
+        color: #CE0000;
+    }
+}
