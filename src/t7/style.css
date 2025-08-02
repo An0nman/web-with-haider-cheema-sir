@@ -12,13 +12,15 @@ a {
     text-decoration: none;
 }
 
+/* section 1 (organology) */
+
 .organology-blog-sec {
     background-color: #1D1D1D;
     width: 100%;
     padding: 40px;
 }
 
-.org-blog-sec-parent {
+.org-blog-sec-container {
     max-width: 1980px;
     padding: 100px;
     margin: auto;
@@ -119,7 +121,8 @@ a {
     font-size: 18px;
     text-transform: uppercase;
 }
-.card-text>.title:hover a{
+
+.card-text>.title:hover a {
     color: #FFD700;
 }
 
@@ -129,6 +132,39 @@ a {
     font-weight: 400;
 }
 
-.right>.card>img{
+.right>.card>img {
     height: 706px;
+}
+
+/* section 2 (pressreach) */
+.pressreach {
+    padding: 12px;
+    margin: auto;
+}
+
+.pressrea-chcontainer {
+    max-width: 1140px;
+}
+
+.pressreach-container>.heading {
+    display: flex;
+    justify-content: center;
+    margin: 45px;
+}
+
+.pressreach-container>.heading>h2 {
+    width: fit-content;
+    color: white;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -2px;
+    padding: 10px 20px;
+    background-color: #CE0000;
+}
+
+@media (max-width: 1400px) {
+    .org-blog-sec-container {
+        padding: 0px;
+    }
 }
