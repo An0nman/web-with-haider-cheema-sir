@@ -1,0 +1,16 @@
+div {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: blueviolet;
+    background-image: url("https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1nfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background: blueviolet url("https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1nfGVufDB8fDB8fHww") no-repeat top;
+    opacity: 1;
+    background-attachment: fixed;
+
+
+    background-size: cover;
+    color: white;
+}

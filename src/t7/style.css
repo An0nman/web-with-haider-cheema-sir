@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.organology-blog-sec {
+    background-color: #1D1D1D;
+    width: 100%;
+    padding: 40px;
+}
+
+.org-blog-sec-parent {
+    max-width: 1980px;
+    padding: 100px;
+    margin: auto;
+}
+
+.headings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.small-circle {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #FFD700;
+}
+
+.headings-text>p {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font: 500 16px;
+}
+
+.headings-text>h2 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.headings-btn>a {
+    padding: 14px 24px;
+    background-color: #FFD700;
+    color: #1D1D1D;
+    border-radius: 50px;
+    font: 500 14px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.right {
+    width: 65%;
+}
+
+.card {
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 15px #595959;
+}
+
+.card>img {
+    width: 100%;
+    height: 329px;
+    object-fit: cover;
+}
+
+.card-text {
+    padding: 24px 38px;
+}
+
+.card-text>.date {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.card-text>.date>span {
+    width: 2px;
+    height: 12px;
+    display: block;
+    background-color: #FFD700;
+}
+
+.card-text>.title {
+    display: flex;
+    align-items: first baseline;
+    gap: 3px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.card-text>.title:hover a{
+    color: #FFD700;
+}
+
+
+.card-text>.para {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.right>.card>img{
+    height: 706px;
+}
