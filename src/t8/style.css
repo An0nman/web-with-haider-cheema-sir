@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary: #CE0000;
+    --secondary: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* >> common component styling << */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.pr-container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.pr-sec-heading {
+    padding: 10px 18px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    transform: skew(-10deg);
+    color: #ffffff;
+    background-color: var(--primary);
+}
+
+
+/* >> common styling << */
+
+.flex {
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.pd-r-12 {
+    padding-right: 12px;
+}
+
+.pd-l-12 {
+    padding-left: 12px;
+}
+
+.pd-tb-48 {
+    padding: 48px 0px;
+}
+
+.pb-mb-12 {
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.border-l {
+    border-left: 1px solid #00000036;
+}
+
+.border-b {
+    border-bottom: 1px solid #00000036;
+}
+
+.pr-card img,
+.pr-card2 img {
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.pr-card-category-top p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    letter-spacing: -1px;
+    color: var(--primary);
+}
+
+.pr-card-title-top h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 31px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    margin-bottom: 8px;
+    color: var(--secondary);
+}
+
+.pr-card-date {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.pr-card-category p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    color: var(--primary);
+}
+
+.pr-card-title h3 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: var(--secondary);
+}
+
+.pr-card2 img{
+    height: 110px;
+    object-fit: cover;
+}
+
+.pr-card3{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+.pr-card3 img{
+    width: 180px;
+}
+
+/* >> header styling start <<*/
+
+/* _____header top part */
+header>.pr-top-bar {
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+}
+
+.pr-top-bar>.pr-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 34px;
+}
+
+.pr-top-social-icons {
+    width: 150px;
+    gap: 10px;
+}
+
+.pr-top-social-icons>a>i {
+    font-size: 14px;
+    opacity: .6;
+    transition: opacity ease-in-out .2s;
+}
+
+.pr-top-social-icons>a>i:hover {
+    opacity: 1;
+}
+
+.pr-top-bar .pr-logo h1 {
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 43px;
+}
+
+.pr-top-search-part {
+    width: 150px;
+    justify-content: end;
+}
+
+.pr-top-search-part button {
+    gap: 6px;
+    background-color: #ffffff1f;
+    border: none;
+    padding: 0px 20px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.pr-top-search-part button i {
+    font-size: 17px;
+}
+
+/* _____header bottom part(navigation part)*/
+nav {
+    background-color: var(--secondary);
+    height: 70px;
+}
+
+nav ul {
+    list-style: none;
+    gap: 45px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+nav a {
+    padding-bottom: 8px;
+}
+
+nav a:hover {
+    border-bottom: 3px solid #ffffff;
+}
+
+/* _____>_____dropdown menu style */
+.pr-dropdown-menu {
+    position: relative;
+}
+
+.pr-dropdown {
+    display: none;
+    width: 200px;
+    position: absolute;
+    padding: 15px;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+    background-color: var(--secondary);
+}
+
+
+.pr-dropdown li {
+    border-bottom: 3px solid #000;
+    padding-bottom: 3px;
+}
+
+.pr-dropdown li:hover {
+    border-bottom: 3px solid #ffffff;
+}
+
+.pr-dropdown a:hover {
+    border: none;
+}
+
+.pr-dropdown-menu:hover .pr-dropdown {
+    display: flex;
+}
+
+/* >> search bar section styling starts here << */
+
+.pr-search-bar-sec input {
+    padding: 14px 14px;
+    width: 500px;
+    border: none;
+}
+
+.pr-search-bar-sec input[type="search"]:focus-visible {
+    outline: 1px solid var(--primary);
+}
+
+.pr-search-bar-sec input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.pr-search-bar-sec button {
+    padding: 13px 18px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    outline: 1px solid var(--primary);
+    background-color: var(--primary);
+}
+
+/* >> investing news section starts here */
