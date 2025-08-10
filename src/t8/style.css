@@ -24,7 +24,7 @@ img {
 
 .pr-container {
     width: 100%;
-    max-width: 1080px;
+    max-width: 1040px;
     margin: 0 auto;
 }
 
@@ -64,6 +64,22 @@ img {
 
 .w-100 {
     width: 100%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-35 {
+    width: 35%;
 }
 
 .w-50 {
@@ -145,17 +161,18 @@ img {
     color: var(--secondary);
 }
 
-.pr-card2 img{
+.pr-card2 img {
     height: 110px;
     object-fit: cover;
 }
 
-.pr-card3{
+.pr-card3 {
     display: flex;
     justify-content: space-between;
     gap: 12px;
 }
-.pr-card3 img{
+
+.pr-card3 img {
     width: 180px;
 }
 
