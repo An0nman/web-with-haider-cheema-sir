@@ -18,6 +18,11 @@
     display: flex;
 }
 
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -32,6 +37,10 @@
 .align-center {
     display: flex;
     align-items: center;
+}
+
+.gap-12 {
+    gap: 12px;
 }
 
 .w-100 {
@@ -99,6 +108,10 @@ a {
 
 img {
     width: 100%;
+}
+
+ul {
+    list-style: none;
 }
 
 .pr-container {
@@ -249,7 +262,6 @@ nav {
 }
 
 nav ul {
-    list-style: none;
     gap: 45px;
     font-size: 13px;
     font-weight: 700;
@@ -326,4 +338,101 @@ nav a:hover {
     color: #ffffff;
     outline: 1px solid var(--primary);
     background-color: var(--primary);
+}
+
+/* >> footer styling start here << */
+footer {
+    color: #ffffff;
+    background-color: var(--secondary);
+}
+
+/* _____footer top styling */
+.pr-footer-top {
+    border-bottom: 1px solid #ffffff36;
+}
+
+/* _____>_____footer top left styling */
+.footer-logo {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.footer-top-left-para {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.pr-footer-top-left .pr-top-social-icons a:hover {
+    color: var(--primary);
+}
+
+/* _____>_____footer top middle styling */
+
+.pr-footer-top-middle {
+    border-left: 1px solid #ffffff36;
+    border-right: 1px solid #ffffff36;
+}
+
+.pr-footer-top-middle a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+/* _____>_____footer top right styling */
+
+.pr-footer-top-right h4 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.pr-footer-top-right p {
+    font-size: 14px;
+}
+
+.pr-footer-email-bar input {
+    padding: 12px 14px;
+    border: none;
+    outline: none;
+    background-color: #1A1A1A;
+}
+
+.pr-footer-email-bar input::placeholder {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.pr-footer-email-bar input[type="submit"] {
+    padding: 10px 14px;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: var(--primary);
+}
+
+.pr-footer-checkbox {
+    align-items: start;
+}
+
+.pr-footer-checkbox label {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+/* _____footer bottom styling */
+
+.pr-footer-bottom p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
 }
