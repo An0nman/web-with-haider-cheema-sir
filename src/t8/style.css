@@ -459,7 +459,7 @@ footer {
     }
 
     header .pr-top-bar {
-        padding: 0px 0px;
+        padding: 0px;
     }
 
     .pr-top-bar>.pr-container {
@@ -535,7 +535,8 @@ footer {
     }
 
     .pr-inv-left-bottom-left .pr-card2:last-child,
-    .pr-inv-left-bottom-right .pr-card2:last-child {
+    .pr-inv-left-bottom-right .pr-card2:last-child,
+    .pr-lat-news-left-tops-bottom .pr-card {
         padding-bottom: 12px;
         margin-bottom: 12px;
         border-bottom: 1px solid #00000036;
@@ -549,7 +550,98 @@ footer {
     .pr-inves-news-cards-right {
         border-left: none;
     }
-    .pr-inv-news-right-bottom img{
+
+    .pr-inv-news-right-bottom img {
         width: 100px;
     }
+
+    /* latest news section */
+    .pr-Latest-news-cards,
+    .pr-lat-news-left-tops-bottom,
+    .pr-lat-news-left-bottom {
+        flex-direction: column;
+    }
+
+    .pr-Latest-news-cards-left,
+    .pr-Latest-news-cards-right,
+    .pr-lat-news-left-tops-bottom .pr-card,
+    .pr-lat-news-left-tops-bottoms-right,
+    .pr-lat-news-bottom-left,
+    .pr-lat-news-bottom-right {
+        width: 100%;
+    }
+
+    .pr-lat-news-left-tops-bottoms-right,
+    .pr-lat-news-bottom-left,
+    .pr-lat-news-bottom-right,
+    .pr-Latest-news-cards-right {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .pr-lat-news-left-top,
+    .pr-lat-news-left-bottom {
+        padding-right: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+
+    .pr-lat-news-bottom-left .pr-card:last-child,
+    .pr-lat-news-bottom-right .pr-card:last-child {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-bottom: 1px solid #00000036;
+    }
+
+    /* market news section */
+    .pr-market-news-cards {
+        flex-direction: column;
+    }
+
+    .pr-market-news-cards-left,
+    .pr-market-news-cards-right {
+        width: 100%;
+    }
+
+    .pr-market-news-cards-left {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+
+    .pr-market-news-cards-right {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    /* oil & gas news section */
+    .pr-oilGas-news-cards,
+    .pr-og-nes-left-bottom {
+        flex-direction: column;
+    }
+
+    .pr-oilGas-news-cards-left,
+    .pr-oilGas-news-cards-right {
+        width: 100%;
+    }
+
+    .pr-oilGas-news-cards-left,
+    .pr-og-left-bottom-left {
+        padding-right: 0;
+    }
+
+    .pr-oilGas-news-cards-right,
+    .pr-og-left-bottom-right {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .pr-og-left-bottom-left,
+    .pr-og-left-bottom-right {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-bottom: 1px solid #00000036;
+    }
+
+    /* mining news section */
 }
