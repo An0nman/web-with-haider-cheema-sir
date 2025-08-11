@@ -116,7 +116,7 @@ ul {
 
 .pr-container {
     width: 100%;
-    max-width: 1120px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -200,7 +200,7 @@ ul {
 
 /* _____header top part */
 header>.pr-top-bar {
-    height: 96px;
+    padding: 26px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,6 +226,11 @@ header>.pr-top-bar {
 
 .pr-top-social-icons>a>i:hover {
     opacity: 1;
+}
+
+.pr-hamburger-menu,
+.pr-top-bar-search-icon {
+    display: none;
 }
 
 .pr-top-bar .pr-logo h1 {
@@ -258,7 +263,7 @@ header>.pr-top-bar {
 /* _____header bottom part(navigation part)*/
 nav {
     background-color: var(--secondary);
-    height: 70px;
+    padding: 20px 0;
 }
 
 nav ul {
@@ -313,25 +318,29 @@ nav a:hover {
 
 /* >> search bar section styling starts here << */
 
-.pr-search-bar-sec input {
-    padding: 18px 14px;
+.pr-search-bar-sec input,
+.pr-mobile-search-bar input {
+    padding: 17px 14px;
     width: 500px;
     border: none;
     border-radius: 8px 0px 0px 8px;
     background-color: #EDEDED;
 }
 
-.pr-search-bar-sec input[type="search"]:focus-visible {
+.pr-search-bar-sec input[type="search"]:focus-visible,
+.pr-mobile-search-bar input[type="search"]:focus-visible {
     outline: 1px solid var(--primary);
 }
 
-.pr-search-bar-sec input::placeholder {
+.pr-search-bar-sec input::placeholder,
+.pr-mobile-search-bar input::placeholder {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.pr-search-bar-sec button {
+.pr-search-bar-sec button,
+.pr-mobile-search-bar button {
     padding: 16px 18px;
     border: none;
     font-size: 14px;
@@ -340,6 +349,10 @@ nav a:hover {
     color: #ffffff;
     outline: 1px solid var(--primary);
     background-color: var(--primary);
+}
+
+.pr-mobile-search-bar {
+    display: none;
 }
 
 /* >> footer styling start here << */
@@ -440,11 +453,103 @@ footer {
 }
 
 /* responsive styling */
-@media screen and (max-width: 430px) {
+@media (max-width: 440px) {
+    .pr-container {
+        padding: 0 18px;
+    }
+
+    header .pr-top-bar {
+        padding: 0px 0px;
+    }
+
+    .pr-top-bar>.pr-container {
+        padding: 12px 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--secondary);
+    }
+
     .pr-top-social-icons {
         display: none;
     }
-    .pr-top-search-part{
+
+    .pr-hamburger-menu,
+    .pr-top-bar-search-icon {
+        display: block;
+        color: #ffffff;
+        font-size: 22px;
+    }
+
+    .pr-top-bar .pr-logo h1 {
+        font-size: 28px;
+        line-height: 31px;
+        letter-spacing: -2px;
+    }
+
+    .pr-top-search-part {
         display: none;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    nav .pr-container {
+        display: none;
+    }
+
+    .pr-search-bar-sec {
+        display: none;
+    }
+
+    .pr-mobile-search-bar {
+        display: block;
+    }
+
+    .pr-mobile-search-bar input {
+        width: 280px;
+    }
+
+    .pr-sec-heading {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .pr-inves-news-cards {
+        flex-direction: column;
+    }
+
+    .pr-inves-news-cards-left,
+    .pr-inves-news-cards-right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .pr-inv-nes-left-bottom {
+        flex-direction: column;
+    }
+
+    .pr-inv-left-bottom-left {
+        padding-right: 0;
+    }
+
+    .pr-inv-left-bottom-left .pr-card2:last-child,
+    .pr-inv-left-bottom-right .pr-card2:last-child {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-bottom: 1px solid #00000036;
+    }
+
+    .pr-inv-left-bottom-right {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .pr-inves-news-cards-right {
+        border-left: none;
+    }
+    .pr-inv-news-right-bottom img{
+        width: 100px;
     }
 }
