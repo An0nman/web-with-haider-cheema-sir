@@ -29,11 +29,6 @@
     justify-content: center;
 }
 
-.justify-space-between {
-    display: flex;
-    justify-content: space-between;
-}
-
 .align-center {
     display: flex;
     align-items: center;
@@ -57,6 +52,10 @@
 
 .w-35 {
     width: 35%;
+}
+
+.w-34 {
+    width: 34%;
 }
 
 .w-33 {
@@ -328,4 +327,3 @@ nav a:hover {
     outline: 1px solid var(--primary);
     background-color: var(--primary);
 }
-
