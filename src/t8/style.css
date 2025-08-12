@@ -644,4 +644,97 @@ footer {
     }
 
     /* mining news section */
+    .pr-mining-news-cards {
+        flex-direction: column;
+    }
+
+    .pr-mining-news-cards-left,
+    .pr-mining-news-cards-middle,
+    .pr-mining-news-cards-right {
+        width: 100%;
+    }
+
+    .pr-mining-news-cards-left,
+    .pr-mining-news-cards-middle {
+        padding-right: 0;
+    }
+
+    .pr-market-news-cards-right,
+    .pr-mining-news-cards-middle,
+    .pr-mining-news-cards-right {
+        padding-left: 0;
+    }
+
+    .pr-mining-news-cards-left .pr-card:last-child,
+    .pr-mining-news-cards-middle .pr-card2:last-child {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+
+    .pr-mining-news-cards-middle,
+    .pr-mining-news-cards-right {
+        border-left: none;
+    }
+
+    /* gaming news section */
+    .pr-gaming-news-cards {
+        flex-direction: column;
+    }
+
+    .pr-gaming-news-cards-left,
+    .pr-gaming-news-cards-right {
+        width: 100%;
+    }
+
+    .pr-gaming-news-cards-left {
+        padding-right: 0;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+
+    .pr-gaming-news-cards-right {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    /* entertainment news section */
+    .pr-entertain-news-cards,
+    .pr-ent-nes-left-bottom {
+        flex-direction: column;
+    }
+
+    .pr-entertain-news-cards-left,
+    .pr-entertain-news-cards-right {
+        width: 100%;
+    }
+
+    .pr-entertain-news-cards-left,
+    .pr-ent-left-bottom-left {
+        padding-right: 0;
+    }
+
+    .pr-ent-left-bottom-left {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-bottom: 1px solid #00000036;
+    }
+
+    .pr-ent-left-bottom-right,
+    .pr-entertain-news-cards-right {
+        padding-left: 0;
+        border-left: 0;
+    }
+
+    .pr-ent-left-bottom-right {
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+
+    /* travel and hospitality */
+    .pr-t_h-news-cards {
+        flex-direction: column;
+    }
+    .pr-t_h-lefts-left{
+        padding-right: 0;
+    }
 }
