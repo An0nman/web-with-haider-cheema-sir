@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --primary-color: #0056D2;
+    --light-primary-color: #0058d20c;
+    --border-color: #33333328;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+/* custom styles */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-12 {
+    display: flex;
+    gap: 12px;
+}
+
+.p-tb-12 {
+    padding: 12px 0;
+}
+
+.p-tb-48 {
+    padding: 48px 0;
+}
+
+.border-b {
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* components */
+
+.btn {
+    padding: 6px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: var(--light-primary-color);
+}
+
+.container {
+    width: 95%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* header styling */
+
+.header-logo {
+    height: 20px;
+    margin-top: 8px;
+}
+
+.header-btn i {
+    font-size: 14px;
+}
+
+.header-search {
+    padding: 4px 6px;
+    border: 1px solid var(--border-color);
+    border-radius: 50px;
+}
+
+.dropdown {
+    position: absolute;
+    width: 100%;
+    background-color: red;
+}
+
+.header-search input {
+    width: 350px;
+    margin-left: 6px;
+    border: none;
+    outline: none;
+}
+
+.header-search div {
+    background-color: var(--primary-color);
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.header-right a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.header-right a:hover {
+    color: var(--primary-color);
+}
+
+.header-right .login-link {
+    color: var(--primary-color);
+    padding-bottom: 0;
+}
+
+.header-right .login-link:hover {
+    text-decoration: underline;
+}
+
+/* hero section styling */
+.hero-left {
+    padding-left: 56px;
+}
+
+.hero-left h1 {
+    font-size: 84px;
+    font-weight: 600;
+    line-height: 92px;
+}
+
+.hero-left p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.hero-left-buttons a {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+    padding: 18px 50px;
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+.hero-left-buttons a:last-child {
+    font-size: 16px;
+    padding: 15px 50px;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 3px solid var(--primary-color);
+    border-radius: 3px;
+    /* padding: 20px 50px; */
+}
+
+.hero-right img {
+    width: 100%;
+}
+
+/* logo section styling */
+.logo {
+    background-color: var(--light-primary-color);
+}
+
+.logo-top a h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.logo-top a span {
+    color: var(--primary-color);
+}
+
+.logo-top a:hover span {
+    text-decoration: underline;
+}
+
+/* question section styling */
+.question .container {
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid var(--border-color);
+}
+
+.question-option h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.question-option a {
+    font-weight: 600;
+    padding: 8px;
+    padding-right: 16px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+}
+
+.question-option a div {
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+.question
+
+/* role section styling */
+.role .container{
+    background-color: var(--light-primary-color);
+}

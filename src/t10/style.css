@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.sec-headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sec-headings p {
+    width: 800px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.price-sec-cards,
+.what-we-do-cards,
+.barbars-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0px;
+}
+
+.pri-sec-card {
+    text-align: center;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    padding: 28px 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.pri-sec-card-headings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.pri-sec-card-headings h4 {
+    text-transform: capitalize;
+}
+
+.pri-sec-card-headings p {
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+
+.pri-sec-card-price {
+    width: 100%;
+    font-size: 32px;
+    padding: 16px 0px;
+    border-top: 1px dashed rgb(255, 209, 3);
+    border-bottom: 1px dashed rgb(255, 209, 3);
+}
+
+.pri-sec-card-services {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-transform: capitalize;
+}
+
+.pri-sec-card button {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px 46px;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    background-color: rgb(19, 19, 19);
+}
+
+.pri-middle-card {
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+
+.pri-middle-card h4 {
+    color: rgb(255, 209, 3);
+}
+
+.pri-middle-card p {
+    color: gainsboro;
+}
+
+.pri-middle-card button {
+    background-color: rgb(255, 209, 3);
+    color: rgb(19, 19, 19);
+}
+
+.what-we-do-card {
+    height: 300px;
+    width: 230px;
+    position: relative;
+    overflow: hidden;
+}
+
+.what-we-do-card h4 {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+
+.barbars-cards{
+    flex-direction: column;
+}
+
+.barbars-cards-top,
+.barbars-cards-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.barbars-card {
+    width: 250px;
+    height: 350px;
+}
+
+.barbars-card img{
+    width: 100%;
+    height: 80%;
+}
+
+.barbars-card-text{
+    text-align: center;
+    padding: 15px 5px;
+}
+.barbars-card-text p{
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.cuts-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 40px;
+}
+.cuts-card{
+    display: flex;
+    gap: 40px;
+}
+.cuts-card-image{
+    width: 1100px;
+    height:400px;
+    background-color: red;
+}
+.cuts-card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cuts-card-text h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+.cuts-card-text h4{
+    font-weight: 400;
+}
+.cuts-card:nth-child(even){
+    flex-direction: row-reverse;
+}
